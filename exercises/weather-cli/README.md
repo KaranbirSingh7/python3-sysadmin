@@ -22,8 +22,11 @@
    ```
 
 7. Once key is in place and app have executable permissions. You have to source and load your API key into current terminal session.
-   `source .env`
 
-8.Try running by using this command: `./app.py --location toronto --country canada`
+   ```bash
+   source .env
+   ```
+
+8. Try running by using this command: `./app.py --location toronto --country canada`
 
 9. If key is in working state and city exists. App would print out JSON
