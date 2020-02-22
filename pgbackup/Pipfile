@@ -4,8 +4,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+yapf = "*"
 
 [packages]
+e1839a8 = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
