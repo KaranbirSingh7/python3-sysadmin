@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 yapf = "*"
+pytest = "*"
 
 [packages]
 e1839a8 = {editable = true,path = "."}
